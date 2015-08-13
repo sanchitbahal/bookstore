@@ -3,11 +3,11 @@ var app = express();
 
 app.get('/books', function(req, res) {
 	res.send([
-		{name: 'Book 1', image: 'monkey'}, 
-		{name: 'Book 2', image: 'monkey'},
-		{name: 'Book 3', image: 'monkey'},
-		{name: 'Book 4', image: 'monkey'},
-		{name: 'Book 5', image: 'monkey'}
+		{name: 'The Namesake', author: 'Jhumpa Lahiri', image: 'The_Namesake', abstractText: "Jhumpa Lahiri's Interpreter of Maladies established this young writer as one the most brilliant of her generation. Her stories are one of the very few debut works -- and only a handful of collections -- to have won the Pulitzer Prize for fiction. Among the many other awards and honors it received were the New Yorker Debut of the Year award, the PEN/Hemingway Award, and the highest critical praise for its grace, acuity, and compassion in detailing lives transported from India to America."}, 
+		{name: 'The Untethered Soul: The Journey Beyond Yourself ', author: 'Michael A. Singer', image: 'Untethered_Soul', abstractText: "What would it be like to free yourself from limitations and soar beyond your boundaries? What can you do each day to discover inner peace and serenity? The Untethered Soul—now a #1 New York Times bestseller—offers simple yet profound answers to these questions."},
+		{name: 'Lean In: Women, Work, and the Will to Lead', author: 'Sheryl Sandberg',image: 'Lean_In', abstractText: "Lean In--Sheryl Sandberg's provocative, inspiring book about women and power--grew out of an electrifying TED talk Sandberg gave in 2010, in which she expressed her concern that progress for women in achieving major leadership positions had stalled. The talk became a phenomenon and has since been viewed nearly two million times. In Lean In, she fuses humorous personal anecdotes, singular lessons on confidence and leadership, and practical advice for women based on research, data, her own experiences, and the experiences of other women of all ages. Sandberg has an uncanny gift for cutting through layers of ambiguity that surround working women, and in Lean In she grapples, piercingly, with the great questions of modern life. Her message to women is overwhelmingly positive. She is a trailblazing model for the ideas she so passionately espouses, and she's on the pulse of a topic that has never been more relevant."},
+		{name: 'The Secret', author: 'Rhonda Byrne',image: 'The_Secret', abstractText: "Fragments of a Great Secret have been found in the oral traditions, in literature, in religions and philosophies throughout the centuries. For the first time, all the pieces of The Secret come together in an incredible revelation that will be life-transforming for all who experience it."},
+		{name: 'Building Microservices', author: 'Sam Newman',image: 'Building_Microservices', abstractText: "Over the past 10 years, distributed systems have become more fine-grained. From the large multi-million line long monolithic applications, we are now seeing the benefits of smaller self-contained services. Rather than heavy-weight, hard to change Service Oriented Architectures, we are now seeing systems consisting of collaborating microservices. Easier to change, deploy, and if required retire, organizations which are in the right position to take advantage of them are yielding significant benefits."}
 		]);
 });
 
